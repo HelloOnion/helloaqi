@@ -14,12 +14,14 @@ A simple Chrome extension that displays real-time Air Quality Index (AQI) data f
 
 1. Download or clone this repository
 2. npm/yarn/pnpm install
-3. npm run build / yarn run build / pnpm build
-4. Open Chrome and go to `chrome://extensions/`
-5. Enable "Developer mode" in the top right
-6. Click "Load unpacked" and select the extension directory
-7. Select the "out" folder inside the project.
-8. voila!
+3. request a new [AQIAPI](https://aqicn.org/api/) token from [AQIAPI Token](https://aqicn.org/data-platform/token/)
+4. paste you new token to the .env file NEXT_PUBLIC_AQI_TOKEN (example: NEXT_PUBLIC_AQI_TOKEN=1234567abcdef)
+5. npm run build / yarn run build / pnpm build
+6. Open Chrome and go to `chrome://extensions/`
+7. Enable "Developer mode" in the top right
+8. Click "Load unpacked" and select the extension directory
+9. Select the "out" folder inside the project.
+10. voila!
 
 ## Usage
 
@@ -30,7 +32,7 @@ A simple Chrome extension that displays real-time Air Quality Index (AQI) data f
 
 ## API
 
-This extension uses the [AQI API](https://aqicn.org/api/) to fetch AQI data.
+This extension uses the [AQIAPI](https://aqicn.org/api/) to fetch AQI data.
 
 ## Technologies Used
 
