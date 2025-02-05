@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "HelloAQI",
+  "version": "1.0.0",
+  "description": "Check current Air Quality Index for your location powered by the World Air Quality Index API",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "images/HelloAQI-logo.png"
+  },
+  "permissions": ["geolocation"]
+}

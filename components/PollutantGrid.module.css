@@ -1,0 +1,14 @@
+.container {
+  margin-top: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.pollutantValue {
+  font-size: 12px;
+}
