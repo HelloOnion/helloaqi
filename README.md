@@ -1,5 +1,6 @@
 # HelloAQI Chrome Extension
 
+This is a Hobby Project!
 A simple Chrome extension that displays real-time Air Quality Index (AQI) data for your current location.
 
 ## Features
