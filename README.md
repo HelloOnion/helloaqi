@@ -39,7 +39,6 @@ This extension uses the [AQIAPI](https://aqicn.org/api/) to fetch AQI data.
 - NextJS
 - JavaScript
 - HTML/CSS
-- Chrome Extensions API
 - AQI API
 
 ## License
