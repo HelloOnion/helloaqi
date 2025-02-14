@@ -98,7 +98,7 @@ export default function Popup() {
       <div className={styles.footer}>
         Created by:{" "}
         <a
-          href="https://hellopeople.vercel.app"
+          href="https://codykung.vercel.app"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.link}
